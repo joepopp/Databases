@@ -1,0 +1,15 @@
+CREATE TABLE employees(
+  eid integer(6) primary key,
+  fname varchar(50),
+  lname varchar(50),
+  dept varchar(50),
+  salary numeric(10,2)
+);
+
+INSERT INTO employees
+VALUES
+  (111, 'Jack', 'Smith', 'HR', 125000),
+  (222, 'Jill', 'Sanders', 'Acct.', 150000),
+  (333, 'Pam', 'Smith', 'HR', 75000),
+  (444, 'Sam', 'Adams', 'Acct.', 49000),
+  (555, 'Tom', 'Guiney', 'Security', 37000);
